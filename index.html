@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Encriptador/Css/style.css">
+        <title>Challenger Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <img src="Encriptador/Imagenes/Vector.png" alt="Logo A" class="logo">
+        </header>
+        <main>
+            <div class="grid-container">
+                <section class="introdmain">
+                    <textarea class="input-texto" cols="40" rows="16" placeholder="Ingrese el texto aquí..."></textarea>
+                    <p class="tipeo"><img src="Encriptador/Imagenes/Signo.png" class="signo">Ingrese solo minúsculas y sin carácteres especiales</p>
+                    <div class="botones">
+                        <button class="encriptador" onclick="btnEncriptador()">Encriptar</button>
+                        <button class="desencriptador" onclick="btnDesencriptador()">Desencriptar</button>
+                    </div>
+                </section>
+                <section class="resultaside">
+                    <textarea class="mensaje" cols="18" rows="8"></textarea>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </section>
+                <section>
+
+                </section>
+            </div>
+        </main>
+    </body>
+    <script src="Encriptador/Script/script.js"></script>
+</html>

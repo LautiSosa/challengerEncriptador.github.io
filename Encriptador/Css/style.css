@@ -1,0 +1,130 @@
+body {
+    background: #e5e5e5e5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside";
+}
+
+header {
+    grid-area: header;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+
+.introdmain {
+    grid-area: main;
+}
+
+.input-texto {
+    resize: none;
+    margin: 40px 0 0 190px;
+    background: transparent;
+    font-size: 17px;
+    font-weight: bolder;
+    font-size: 19px;
+    border: none;
+    outline: none;
+}
+
+.tipeo {
+    position: relative;
+    left: 22%;
+}
+
+.signo {
+    position: relative;
+    top: 3px;
+    margin-right: 7px;
+}
+
+.encriptador, .desencriptador {
+    margin-top: 7px; 
+    position: relative;
+    left: 170px;
+    width: 21.5%;
+    padding: 19px;
+    border-radius: 17px;
+}
+
+.encriptador {
+    margin-right: 10px;
+    background: #15ff;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+    transition: .5s;
+}
+
+.encriptador:hover {
+    transition: .5s;
+    transform: scale(1.09);
+}
+
+.encriptador:active {
+    transition: .2s;
+    transform: scale(.7);
+}
+
+.desencriptador {
+    background: transparent;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 2px solid #15ff;
+    transition: .5s;
+}
+
+.desencriptador:hover {
+    transition: .5s;
+    transform: scale(1.09);
+}
+
+.desencriptador:active {
+    transition: .2s;
+    transform: scale(.7);
+}
+
+.resultaside {
+    grid-area: aside;
+}
+
+.mensaje {
+    font-size: 19px;
+    font-weight: bolder;
+    margin-left: 90px;
+    height: 470px;
+    width: 330px;
+    background-image: url("Encriptador/Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-size: 270px;
+    background-position: 19px;
+    border: 2px solid #43fa;
+    outline: none;
+} 
+
+.copiar {
+    padding: 19px;
+    width: 23%;
+    border-radius: 17px;
+    position: relative;
+    top: 40px;
+    left: -225px;
+    transition: .5s;
+}
+
+.copiar:hover {
+    transition: .5s;
+    transform: scale(1.08);
+}
+
+.copiar:active {
+    transition: .2s;
+    transform: scale(.7);
+}
